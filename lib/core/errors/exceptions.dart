@@ -4,7 +4,6 @@ class CacheException implements Exception {}
 
 class NetworkException implements Exception {}
 
-///can be used for throwing [NoInternetException]
 class NoInternetException implements Exception {
   late String _message;
 
